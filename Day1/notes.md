@@ -7,3 +7,7 @@
     - I can use: Array.get Int (Array.fromList list) - but it does return a Maybe.Maybe String
 - I made it work first with getUnsafe and then with this:
   - Maybe.withDefault "None"' <| Array.get int <| Array.fromList model.faces
+
+#### Atom is really trying to get on my nerves, sometimes working and sometimes not
+- both elm-format and elmjutsu seem to be mischievous little rascals
+- I plan to move to vim for Elm
